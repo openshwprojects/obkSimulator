@@ -1,3 +1,5 @@
+# Intro
+
 OpenBeken simulator. Written in SDL and OpenGL, currently works on Windows, but should be easy to port.
 
 OpenBeken simulator allows you to draw a simple sketch (simplified schematic) of an IoT device and run OpenBeken on Windows on that simulated device.
@@ -14,6 +16,8 @@ Features:
 - use Tasmota Device Groups on Windows (fully functional, simulated OBK device can talk to real Tasmota/Beken devices on your network)
 - send GET packets with SendGET command (fully functional, your Windows OBK sim can send HTTP GET to any server)
 - and more....
+
+# Compiling
 
 
 
