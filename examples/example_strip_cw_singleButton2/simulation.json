@@ -1,0 +1,157 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	360
+			},
+			"object":	{
+				"name":	"StripCW",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	400,
+				"y":	260
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	900,
+				"y":	600
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	640,
+				"y":	480
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	840,
+				"y":	600
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	439,
+				"y":	123,
+				"text":	"Current OpenBeken variable values:\n- led_dimmer is $led_dimmer\n- led_temperature is $led_temperature\n- led_enableAll is $led_enableAll\n"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	781,
+				"y":	124,
+				"text":	"Debug: current pin states:\n$pinstates"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	960,
+				"y":	226,
+				"text":	"Current autoexec.bat:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	939,
+				"y":	276,
+				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	490,
+				"y":	387,
+				"text":	"Click (automatic) - turns on and off\nDouble click - changes adjust mode\nHold - changes dimmer OR temperature"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	992,
+				"y":	670,
+				"text":	"Current helper channel 10 variable value: $CH10"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	600,
+				"y0":	260,
+				"x1":	900,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	900,
+				"y0":	260,
+				"x1":	900,
+				"y1":	580
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	280,
+				"x1":	180,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	280,
+				"x1":	180,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	440,
+				"x1":	220,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	240,
+				"x1":	160,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	240,
+				"x1":	160,
+				"y1":	460
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	460,
+				"x1":	220,
+				"y1":	460
+			},
+			"wire":	{
+				"x0":	680,
+				"y0":	480,
+				"x1":	840,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	840,
+				"y0":	480,
+				"x1":	840,
+				"y1":	580
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	480,
+				"x1":	380,
+				"y1":	480
+			}
+		}
+	}
+}

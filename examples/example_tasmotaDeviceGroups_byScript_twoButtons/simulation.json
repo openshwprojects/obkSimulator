@@ -1,0 +1,125 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	400,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	580,
+				"y":	260
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	680,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	220,
+				"y":	260
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	340,
+				"y":	59,
+				"text":	"Tasmota Device Groups scripted send demo.\nNOTE: this is a scripted send, not a full\nDGR member (which is also supported)"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	42,
+				"y":	191,
+				"text":	"This button will POWER OFF\nthe deviceGroup."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	520,
+				"y":	180,
+				"text":	"This button will POWER ON\nthe deviceGroup."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	807,
+				"y":	67,
+				"text":	"NOTE: Below is the autoexec.bat used for this example\n(automatically copied from LittleFS)"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	809,
+				"y":	128,
+				"text":	"$autoexec.bat"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	540,
+				"y0":	260,
+				"x1":	480,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	620,
+				"y0":	260,
+				"x1":	680,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	680,
+				"y0":	400,
+				"x1":	680,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	320,
+				"y0":	260,
+				"x1":	260,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	400,
+				"x1":	120,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	260,
+				"x1":	120,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	260,
+				"x1":	120,
+				"y1":	340
+			}
+		}
+	}
+}

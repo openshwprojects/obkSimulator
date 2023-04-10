@@ -1,0 +1,71 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	120,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	218,
+				"y":	67,
+				"text":	"The LED will blink all the time."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	506,
+				"y":	164,
+				"text":	"Here is script used for this example:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	514,
+				"y":	197,
+				"text":	"$autoexec.bat"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	220,
+				"y0":	260,
+				"x1":	120,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	260,
+				"x1":	120,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	400,
+				"x1":	120,
+				"y1":	340
+			}
+		}
+	}
+}

@@ -1,0 +1,286 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	480,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	360,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	289,
+				"y":	72,
+				"text":	"Many relays demo."
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	360,
+				"y":	520
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	280,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	280,
+				"y":	520
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	200,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	360,
+				"x":	200,
+				"y":	520
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	450,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	0,
+				"y":	40
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	520
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	600,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	600,
+				"y":	520
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	680,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	760,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	270,
+				"x":	840,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	680,
+				"y":	520
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	760,
+				"y":	520
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	840,
+				"y":	520
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	360,
+				"y0":	500,
+				"x1":	360,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	360,
+				"y0":	320,
+				"x1":	360,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	360,
+				"y0":	320,
+				"x1":	400,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	300,
+				"x1":	280,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	280,
+				"y0":	300,
+				"x1":	280,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	280,
+				"y0":	440,
+				"x1":	280,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	280,
+				"x1":	200,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	280,
+				"x1":	200,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	440,
+				"x1":	200,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	260,
+				"x1":	120,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	260,
+				"x1":	120,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	440,
+				"x1":	120,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	320,
+				"x1":	600,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	320,
+				"x1":	600,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	300,
+				"x1":	680,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	680,
+				"y0":	300,
+				"x1":	680,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	280,
+				"x1":	760,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	760,
+				"y0":	280,
+				"x1":	760,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	260,
+				"x1":	840,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	840,
+				"y0":	260,
+				"x1":	840,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	500,
+				"x1":	600,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	840,
+				"y0":	440,
+				"x1":	840,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	760,
+				"y0":	440,
+				"x1":	760,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	680,
+				"y0":	440,
+				"x1":	680,
+				"y1":	500
+			}
+		}
+	}
+}

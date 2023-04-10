@@ -1,0 +1,152 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	560,
+				"y":	260
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	500
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	318,
+				"y":	67,
+				"text":	"The LED will blink all the time.\nThe following example sshows how to use\nsimple script to blink LED, but you can \nalso do this in a single repeatingEvent."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	746,
+				"y":	144,
+				"text":	"Here is autoexec.bat used to start script:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	734,
+				"y":	177,
+				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	745,
+				"y":	272,
+				"text":	"Here is the script itself - autoblinker.txt:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	752,
+				"y":	286,
+				"text":	"$readfile(adc_blinker.txt)"
+			},
+			"object":	{
+				"name":	"Pot",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	260,
+				"y":	220
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	40,
+				"y":	160
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	440,
+				"y":	500
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	149,
+				"y":	343,
+				"text":	"Here are the channel values:\n$channelstates"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	480,
+				"y0":	320,
+				"x1":	120,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	320,
+				"x1":	120,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	480,
+				"x1":	120,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	440,
+				"y0":	480,
+				"x1":	440,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	480,
+				"y0":	280,
+				"x1":	140,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	140,
+				"y0":	280,
+				"x1":	140,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	80,
+				"y0":	260,
+				"x1":	80,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	80,
+				"y0":	280,
+				"x1":	40,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	40,
+				"y0":	280,
+				"x1":	40,
+				"y1":	160
+			}
+		}
+	}
+}

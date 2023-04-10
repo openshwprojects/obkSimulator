@@ -1,0 +1,200 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	500,
+				"y":	260
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	600,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	630,
+				"x":	140,
+				"y":	300
+			},
+			"object":	{
+				"name":	"BL0942",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	760,
+				"y":	180
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	900,
+				"y":	100
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	900,
+				"y":	260
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	667,
+				"y":	244,
+				"text":	"You can click on BL0942\nvalues to change them.\nUse Text tool for that."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	289,
+				"y":	72,
+				"text":	"BL0942 socket demo - measuring current, voltage and power.\nSimulation is done on UART level, simulator fakes BL0942 \nUART packets."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	408,
+				"y":	293,
+				"text":	"Press button to\ntoggle the relay.\nYou can enable\nSetOption13\naka \"instant touch\nreactions\" in our\nGeneral/Flags menu\nto make it more\nresponsive."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	663,
+				"y":	318,
+				"text":	"Current readings, as seen by OBK:\n- voltage: $voltage V\n- current: $current mA\n- power: $power W"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	994,
+				"y":	115,
+				"text":	"Current autoexec.bat value:\n$autoexec.bat\n"
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	140,
+				"y":	400
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	460,
+				"y0":	260,
+				"x1":	380,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	540,
+				"y0":	260,
+				"x1":	600,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	260,
+				"x1":	600,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	820,
+				"y0":	200,
+				"x1":	900,
+				"y1":	200
+			},
+			"wire":	{
+				"x0":	900,
+				"y0":	200,
+				"x1":	900,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	820,
+				"y0":	160,
+				"x1":	900,
+				"y1":	160
+			},
+			"wire":	{
+				"x0":	900,
+				"y0":	160,
+				"x1":	900,
+				"y1":	100
+			},
+			"wire":	{
+				"x0":	700,
+				"y0":	200,
+				"x1":	660,
+				"y1":	200
+			},
+			"wire":	{
+				"x0":	660,
+				"y0":	200,
+				"x1":	660,
+				"y1":	220
+			},
+			"wire":	{
+				"x0":	660,
+				"y0":	220,
+				"x1":	380,
+				"y1":	220
+			},
+			"wire":	{
+				"x0":	700,
+				"y0":	160,
+				"x1":	640,
+				"y1":	160
+			},
+			"wire":	{
+				"x0":	640,
+				"y0":	160,
+				"x1":	640,
+				"y1":	200
+			},
+			"wire":	{
+				"x0":	640,
+				"y0":	200,
+				"x1":	380,
+				"y1":	200
+			},
+			"wire":	{
+				"x0":	140,
+				"y0":	380,
+				"x1":	140,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	260,
+				"x1":	140,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	140,
+				"y0":	260,
+				"x1":	140,
+				"y1":	280
+			}
+		}
+	}
+}

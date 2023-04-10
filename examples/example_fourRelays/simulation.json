@@ -1,0 +1,309 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	480,
+				"y":	260
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	600,
+				"y":	460
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	140,
+				"y":	360
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	460
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	433,
+				"y":	41,
+				"text":	"NOTE: For best results, please use\nInstant Touch Reaction\" (aka SetOption13)\nin General/Flags. Otherwise the LED will \ntoggle after you release the button,\nand not immediatelly."
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	140,
+				"y":	300
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	140,
+				"y":	240
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	480,
+				"y":	380
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	480,
+				"y":	320
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	480,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	140,
+				"y":	180
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	440,
+				"y0":	260,
+				"x1":	380,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	260,
+				"x1":	600,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	420,
+				"x1":	120,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	200,
+				"x1":	440,
+				"y1":	200
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	200,
+				"x1":	600,
+				"y1":	200
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	200,
+				"x1":	600,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	320,
+				"x1":	600,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	320,
+				"x1":	600,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	380,
+				"x1":	600,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	380,
+				"x1":	600,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	440,
+				"x1":	600,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	280,
+				"x1":	420,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	280,
+				"x1":	420,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	320,
+				"x1":	440,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	320,
+				"x1":	400,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	320,
+				"x1":	400,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	380,
+				"x1":	440,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	220,
+				"x1":	200,
+				"y1":	220
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	220,
+				"x1":	200,
+				"y1":	180
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	180,
+				"x1":	160,
+				"y1":	180
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	240,
+				"x1":	200,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	240,
+				"x1":	200,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	260,
+				"x1":	220,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	300,
+				"x1":	160,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	360,
+				"x1":	180,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	360,
+				"x1":	180,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	320,
+				"x1":	220,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	180,
+				"x1":	60,
+				"y1":	180
+			},
+			"wire":	{
+				"x0":	60,
+				"y0":	180,
+				"x1":	60,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	60,
+				"y0":	240,
+				"x1":	120,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	300,
+				"x1":	60,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	60,
+				"y0":	300,
+				"x1":	60,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	360,
+				"x1":	60,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	60,
+				"y0":	360,
+				"x1":	60,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	420,
+				"x1":	60,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	60,
+				"y0":	420,
+				"x1":	60,
+				"y1":	360
+			}
+		}
+	}
+}

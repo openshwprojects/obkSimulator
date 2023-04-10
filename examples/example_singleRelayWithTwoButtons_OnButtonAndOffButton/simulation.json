@@ -1,0 +1,171 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	720,
+				"y":	240
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	780,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	120,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	540,
+				"y":	300
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	640,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	476,
+				"y":	269,
+				"text":	"This is OFF button."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	651,
+				"y":	197,
+				"text":	"This is ON button."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	887,
+				"y":	95,
+				"text":	"This is the script used:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	884,
+				"y":	129,
+				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	896,
+				"y":	213,
+				"text":	"Please remember pin indices:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	901,
+				"y":	238,
+				"text":	"$pinindices"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	760,
+				"y0":	240,
+				"x1":	780,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	780,
+				"y0":	400,
+				"x1":	780,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	260,
+				"x1":	120,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	260,
+				"x1":	120,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	400,
+				"x1":	120,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	680,
+				"y0":	240,
+				"x1":	380,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	260,
+				"x1":	460,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	460,
+				"y0":	260,
+				"x1":	460,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	460,
+				"y0":	300,
+				"x1":	500,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	580,
+				"y0":	300,
+				"x1":	640,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	640,
+				"y0":	300,
+				"x1":	640,
+				"y1":	400
+			}
+		}
+	}
+}

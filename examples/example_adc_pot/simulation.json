@@ -1,0 +1,164 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	700,
+				"y":	320
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	100,
+				"y":	220
+			},
+			"object":	{
+				"name":	"Pot",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	360,
+				"y":	240
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	540,
+				"y":	560
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	467,
+				"y":	94,
+				"text":	"Pins information:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	456,
+				"y":	123,
+				"text":	"$pinstates"
+			},
+			"object":	{
+				"name":	"StripSingleColor",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1060,
+				"y":	340
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	220,
+				"y":	80,
+				"text":	"Channel information:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	208,
+				"y":	110,
+				"text":	"$channelstates"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	735,
+				"y":	64,
+				"text":	"Current autoexec.bat script to map ADC to PWM:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	741,
+				"y":	87,
+				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1300,
+				"y":	440
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	100,
+				"y0":	220,
+				"x1":	100,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	100,
+				"y0":	300,
+				"x1":	180,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	300,
+				"x1":	180,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	620,
+				"y0":	340,
+				"x1":	240,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	240,
+				"y0":	340,
+				"x1":	240,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	540,
+				"y0":	540,
+				"x1":	540,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	780,
+				"y0":	360,
+				"x1":	820,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	820,
+				"y0":	360,
+				"x1":	820,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	820,
+				"y0":	340,
+				"x1":	860,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	1260,
+				"y0":	340,
+				"x1":	1300,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	1300,
+				"y0":	340,
+				"x1":	1300,
+				"y1":	420
+			}
+		}
+	}
+}

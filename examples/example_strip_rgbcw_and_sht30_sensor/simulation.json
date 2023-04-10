@@ -1,0 +1,205 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	360
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	920,
+				"y":	640
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	249,
+				"y":	65,
+				"text":	"RGB Strip example. Red/green/bluestrip is a strip that \nrequires 3 PWMs. Not all RGB strips comes with buttons,\nbut OpenBeken supports a Power On/Off, color adjust and\nand a Dimmer adjust buttons without any scripting."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	259,
+				"y":	143,
+				"text":	"Current OpenBeken variable values:\n- led_dimmer is $led_dimmer\n- color is $led_red $led_green $led_blue \n- led_enableAll is $led_enableAll\n"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	981,
+				"y":	84,
+				"text":	"Debug: current pin states:\n$pinstates"
+			},
+			"object":	{
+				"name":	"StripRGBCW",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	420,
+				"y":	260
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	980,
+				"y":	260,
+				"text":	"Debug: current pin roles:\n$pinroles"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	920,
+				"y0":	260,
+				"x1":	920,
+				"y1":	620
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	280,
+				"x1":	200,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	280,
+				"x1":	200,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	440,
+				"x1":	220,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	260,
+				"x1":	180,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	260,
+				"x1":	180,
+				"y1":	460
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	460,
+				"x1":	220,
+				"y1":	460
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	240,
+				"x1":	160,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	240,
+				"x1":	160,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	480,
+				"x1":	220,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	400,
+				"x1":	420,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	400,
+				"x1":	420,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	320,
+				"x1":	640,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	640,
+				"y0":	240,
+				"x1":	620,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	420,
+				"x1":	440,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	440,
+				"y0":	420,
+				"x1":	440,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	440,
+				"y0":	340,
+				"x1":	660,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	620,
+				"y0":	280,
+				"x1":	640,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	640,
+				"y0":	280,
+				"x1":	640,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	640,
+				"y0":	240,
+				"x1":	660,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	660,
+				"y0":	240,
+				"x1":	660,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	620,
+				"y0":	260,
+				"x1":	920,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	360,
+				"x1":	580,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	580,
+				"y0":	380,
+				"x1":	380,
+				"y1":	380
+			}
+		}
+	}
+}

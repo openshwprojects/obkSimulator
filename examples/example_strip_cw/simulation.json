@@ -1,0 +1,221 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	360
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	480,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	580,
+				"y":	600
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	620,
+				"y":	400
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	700,
+				"y":	600
+			},
+			"object":	{
+				"name":	"StripCW",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	400,
+				"y":	260
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	900,
+				"y":	600
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	411,
+				"y":	445,
+				"text":	"ON/OFF button\n(click to toggle\nLED state)"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	553,
+				"y":	349,
+				"text":	"Dimmer button (hold \nto adjust brightness)"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	249,
+				"y":	65,
+				"text":	"CW Strip example. CW (Cool Warm) strip is a strip that \nrequires 2 PWMs. Not all CW strips comes with buttons,\nbut OpenBeken supports a Power On/Off and a Dimmer \nAdjust buttons without any scripting."
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	780,
+				"y":	480
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	840,
+				"y":	600
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	707,
+				"y":	426,
+				"text":	"Temperature adjust\n(hold to adjust)"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	259,
+				"y":	143,
+				"text":	"Current OpenBeken variable values:\n- led_dimmer is $led_dimmer\n- led_temperature is $led_temperature\n- led_enableAll is $led_enableAll\n"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	961,
+				"y":	84,
+				"text":	"Debug: current pin states:\n$pinstates"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	440,
+				"y0":	420,
+				"x1":	380,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	420,
+				"x1":	580,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	580,
+				"y0":	580,
+				"x1":	580,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	580,
+				"y0":	400,
+				"x1":	380,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	660,
+				"y0":	400,
+				"x1":	700,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	700,
+				"y0":	580,
+				"x1":	700,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	260,
+				"x1":	900,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	900,
+				"y0":	260,
+				"x1":	900,
+				"y1":	580
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	280,
+				"x1":	180,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	280,
+				"x1":	180,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	440,
+				"x1":	220,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	200,
+				"y0":	240,
+				"x1":	160,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	240,
+				"x1":	160,
+				"y1":	460
+			},
+			"wire":	{
+				"x0":	160,
+				"y0":	460,
+				"x1":	220,
+				"y1":	460
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	480,
+				"x1":	740,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	820,
+				"y0":	480,
+				"x1":	840,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	840,
+				"y0":	480,
+				"x1":	840,
+				"y1":	580
+			}
+		}
+	}
+}

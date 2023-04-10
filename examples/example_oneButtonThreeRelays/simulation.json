@@ -1,0 +1,179 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	540,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	700,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	780,
+				"y":	500
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	300,
+				"y":	400
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	500
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	380,
+				"y":	400
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	380,
+				"y":	500
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	220,
+				"y":	400
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	220,
+				"y":	500
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	349,
+				"y":	52,
+				"text":	"Using one button to control 3 relays demo.\nFirst relay is using Click.\nSecond relay uses Double Click.\nThird uses Hold."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	800,
+				"y":	116,
+				"text":	"Here is the script used for this example:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	795,
+				"y":	159,
+				"text":	"$autoexec.bat"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	300,
+				"y0":	480,
+				"x1":	300,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	460,
+				"y0":	300,
+				"x1":	300,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	300,
+				"y0":	300,
+				"x1":	300,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	420,
+				"x1":	380,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	460,
+				"y0":	320,
+				"x1":	380,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	320,
+				"x1":	380,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	740,
+				"y0":	320,
+				"x1":	780,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	780,
+				"y0":	320,
+				"x1":	780,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	620,
+				"y0":	320,
+				"x1":	660,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	460,
+				"y0":	280,
+				"x1":	220,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	280,
+				"x1":	220,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	340,
+				"x1":	220,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	360,
+				"x1":	220,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	420,
+				"x1":	220,
+				"y1":	480
+			}
+		}
+	}
+}

@@ -1,0 +1,127 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	280,
+				"y":	260
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	500
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	438,
+				"y":	67,
+				"text":	"Pressing button will start a short cycle of blinking.\nButton click event is scripted, it will stop previous\ninstance of script thread (if any) and start a new one.\nScript will contain a simple loop made with a channel\nused as a counter variable."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	626,
+				"y":	224,
+				"text":	"Here is autoexec.bat used to start script:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	614,
+				"y":	257,
+				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	625,
+				"y":	392,
+				"text":	"Here is the script itself - autoblinker.txt:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	632,
+				"y":	426,
+				"text":	"$readfile(my_blinker.txt)"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	29,
+				"y":	143,
+				"text":	"Here are the channel values:\n$channelstates"
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	460,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	560,
+				"y":	500
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	200,
+				"y0":	320,
+				"x1":	120,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	320,
+				"x1":	120,
+				"y1":	400
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	480,
+				"x1":	120,
+				"y1":	440
+			},
+			"wire":	{
+				"x0":	360,
+				"y0":	320,
+				"x1":	420,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	500,
+				"y0":	320,
+				"x1":	560,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	320,
+				"x1":	560,
+				"y1":	480
+			}
+		}
+	}
+}

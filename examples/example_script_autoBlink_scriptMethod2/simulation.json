@@ -1,0 +1,87 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	120,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	318,
+				"y":	67,
+				"text":	"The LED will blink all the time.\nThe following example sshows how to use\nsimple script to blink LED, but you can \nalso do this in a single repeatingEvent."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	506,
+				"y":	164,
+				"text":	"Here is autoexec.bat used to start script:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	514,
+				"y":	197,
+				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	505,
+				"y":	292,
+				"text":	"Here is the script itself - autoblinker.txt:"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	512,
+				"y":	326,
+				"text":	"$readfile(autoblinker.txt)"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	220,
+				"y0":	260,
+				"x1":	120,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	260,
+				"x1":	120,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	400,
+				"x1":	120,
+				"y1":	340
+			}
+		}
+	}
+}
