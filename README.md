@@ -22,14 +22,24 @@ Run the simulator executable. An SDL Window will open with your device simplifie
 
 Now you can do two things:
 - you can play around with Web interface, scripts, etc, just like on any other physical device
-- you can change the simulated hardware in the Simulator window, add objects (relays, bulbs, LEDs, buttons), connect them with wires and script them anyway you want in Web panel
+- you can change the simulated hardware in the Simulator window, add objects (relays, bulbs, LEDs, buttons), connect them with wires and script them anyway you want in Web panel, interact with buttons by clicking them
 
 Your current scene can be easily saved and loaded, just make sure to save manually after making changes to device flash memory - by default, they are NOT saved. To manage virtual devices, use FILE menu:
-- qqq
-- qqq
-- qqq
-- qqq
+- File->New (Empty) will create an empty  scene
+- File->Load allows you to load an existing simulation (device schematic sketch + device flash dump with setting in flash)
+- File->Save saves changes to current sketch
+- File->Save As allows you to save current sketch to another file
+- File->Open Recent provides a list of recently viewed sketches
 
+Basic tools are available under the hotkeys on alphanumeric keyboards. 
+- Key 1 is Use Tool, which allows you to press buttons, move sliders
+- Key 2 is Move Tool, which allows you to move objects
+- Key 3 is Wire Tool, which allows you to draw wires. Press LMB to draw, and press RMB to change draw mode
+- Key 4 is Delete Tool, 
+- Key 5 is Copy Tool,
+- Key 6 is Info Tool
+- Key 7 is Text Tool, which allows you to print text on simulator sketch
+  
 # Compiling
 
 
