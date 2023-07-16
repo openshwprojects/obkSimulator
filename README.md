@@ -18,6 +18,7 @@ Features:
 - and more....
 
 # Basic usage
+
 Run the simulator executable. An SDL Window will open with your device simplified sketch (WiFi module and some peripherals), also an OpenBeken HTTP server will run on port 80 on your local machine, so you can access your virtual OBK device by entering "localhost" or your local IP in the web browser. Note that you need to have port 80 not in use for that purpose, so stop services like Apache/Xampp, etc, before running OBK sim.
 
 Now you can do two things:
@@ -35,7 +36,7 @@ Basic tools are available under the hotkeys on alphanumeric keyboards.
 - Key 1 is Use Tool, which allows you to press buttons, move sliders
 - Key 2 is Move Tool, which allows you to move objects
 - Key 3 is Wire Tool, which allows you to draw wires. Press LMB to draw, and press RMB to change draw mode
-- Key 4 is Delete Tool, 
+- Key 4 is Delete Tool, which allows you to delete objects, labels and wires
 - Key 5 is Copy Tool,
 - Key 6 is Info Tool
 - Key 7 is Text Tool, which allows you to print text on simulator sketch
