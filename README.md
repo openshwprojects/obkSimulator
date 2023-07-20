@@ -41,6 +41,15 @@ Basic tools are available under the hotkeys on alphanumeric keyboards.
 - Key 5 is Copy Tool, it can be used to quickly make a duplicate of clicked object
 - Key 6 is Info Tool, it prints debug information about object under mouse cursor
 - Key 7 is Text Tool, which allows you to print text on simulator sketch
+
+# Command line arguments
+
+OpenBeken simulator supports the following command line arguments:
+- port - this allows you to change the HTTP port so multiple instances can run on single PC
+- w and -h - this allows you to change the starting resolution of the window
+- runUnitTests - this allows you to disable the long self test process that is at the startup of the simulator
+
+Keep in mind that you need to prefix each argument with -, so to set port to 81 you should write: -port 81 , etc.
   
 # Compiling
 
