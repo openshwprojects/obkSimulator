@@ -1,0 +1,55 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"Button",
+				"classname":	"CShape",
+				"rotation":	180,
+				"x":	480,
+				"y":	240
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	560,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	528,
+				"y":	71,
+				"text":	"Channel used for delay: 10 \nCurrent channel 10 value: $CH10\n\nSimulator will shut down when it reaches 0!\n\nPress button to add +10 seconds!"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	440,
+				"y0":	240,
+				"x1":	380,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	240,
+				"x1":	560,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	400,
+				"x1":	560,
+				"y1":	240
+			}
+		}
+	}
+}
