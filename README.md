@@ -53,6 +53,10 @@ Keep in mind that you need to prefix each argument with -, so to set port to 81 
   
 # Compiling
 
+Get main repository here: 
+https://github.com/openshwprojects/OpenBK7231T_App/tree/main
+Next, assuming you have a path like W:\GIT\OpenBK7231T\apps\OpenBK7231T_App, copy content of simulator dir from this repo there, so you get paths like W:\GIT\OpenBK7231T\apps\OpenBK7231T_App\libs_for_simulator
+Then open MSVC project (from the OpenBK7231T_App repo), select win build config
 
 
 
