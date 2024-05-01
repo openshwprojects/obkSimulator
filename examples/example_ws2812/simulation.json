@@ -91,6 +91,62 @@
 				"rotation":	0,
 				"x":	800,
 				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	860,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	920,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	980,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1040,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1100,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1160,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1220,
+				"y":	420
+			},
+			"object":	{
+				"name":	"WS2812",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	1280,
+				"y":	420
 			}
 		},
 		"wires":	{
@@ -176,6 +232,54 @@
 				"x0":	760,
 				"y0":	420,
 				"x1":	780,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	820,
+				"y0":	420,
+				"x1":	840,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	880,
+				"y0":	420,
+				"x1":	900,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	940,
+				"y0":	420,
+				"x1":	960,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	1000,
+				"y0":	420,
+				"x1":	1020,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	1060,
+				"y0":	420,
+				"x1":	1080,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	1120,
+				"y0":	420,
+				"x1":	1140,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	1180,
+				"y0":	420,
+				"x1":	1200,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	1240,
+				"y0":	420,
+				"x1":	1260,
 				"y1":	420
 			}
 		}
