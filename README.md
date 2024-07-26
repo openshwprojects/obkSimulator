@@ -2,6 +2,8 @@
 
 OpenBeken simulator. Written in SDL and OpenGL, currently works on Windows, but should be easy to port.
 
+Release topic: https://www.elektroda.com/rtvforum/topic4046056.html
+
 OpenBeken simulator allows you to draw a simple sketch (simplified schematic) of an IoT device and run OpenBeken on Windows on that simulated device.
 You can place buttons, LEDs, relays, trimmers, power metering chips, interact with them (press buttons etc) and check how OpenBeken would behave on such device.
 This allows you to develop OpenBK configurations and scripts easily, even without getting a real device.
