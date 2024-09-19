@@ -1,3 +1,6 @@
+
+# Don't ignore .lib folder
+!.lib
 .sconsign.dblite
 # Object files
 *.o
