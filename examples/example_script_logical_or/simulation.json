@@ -1,0 +1,135 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	200,
+				"y":	240
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	400,
+				"y":	360
+			},
+			"object":	{
+				"name":	"Switch",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	360,
+				"y":	240
+			},
+			"object":	{
+				"name":	"Switch",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	500,
+				"y":	280
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	517,
+				"y":	77,
+				"text":	"Current script:\n$autoexec.bat"
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	-22,
+				"y":	113,
+				"text":	"Logical AND demo. Switches are on channels 0 and 1,\nand the bulb is on channel 2."
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	600,
+				"y":	440
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	560,
+				"y":	440
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	520,
+				"y":	440
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	637.30005,
+				"y":	234.69998,
+				"text":	"$pinStates"
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	280,
+				"y0":	240,
+				"x1":	320,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	240,
+				"x1":	600,
+				"y1":	240
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	240,
+				"x1":	600,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	280,
+				"y0":	360,
+				"x1":	380,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	360,
+				"x1":	520,
+				"y1":	360
+			},
+			"wire":	{
+				"x0":	520,
+				"y0":	360,
+				"x1":	520,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	540,
+				"y0":	280,
+				"x1":	560,
+				"y1":	280
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	280,
+				"x1":	560,
+				"y1":	420
+			},
+			"wire":	{
+				"x0":	280,
+				"y0":	280,
+				"x1":	460,
+				"y1":	280
+			}
+		}
+	}
+}

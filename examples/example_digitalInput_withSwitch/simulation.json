@@ -1,0 +1,95 @@
+{
+	"simulation":	{
+		"objects":	{
+			"object":	{
+				"name":	"WB3S",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	300,
+				"y":	200
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	600,
+				"y":	420
+			},
+			"object":	{
+				"name":	"Bulb",
+				"classname":	"CShape",
+				"rotation":	90,
+				"x":	120,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	420
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	409,
+				"y":	73,
+				"text":	"DigitalInput demo.\nDigitalInput pin is not like a button,\nit has no click events, no double click,\nno hold, etc. It just copies the digital \nvalue from pin to target channel.\nIt can be used for water sensors, PIR, \netc."
+			},
+			"object":	{
+				"name":	"",
+				"classname":	"CText",
+				"rotation":	0,
+				"x":	702,
+				"y":	208,
+				"text":	"PinStates:\n$pinstates"
+			},
+			"object":	{
+				"name":	"Switch",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	500,
+				"y":	260
+			}
+		},
+		"wires":	{
+			"wire":	{
+				"x0":	460,
+				"y0":	260,
+				"x1":	380,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	540,
+				"y0":	260,
+				"x1":	600,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	600,
+				"y0":	400,
+				"x1":	600,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	260,
+				"x1":	120,
+				"y1":	260
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	260,
+				"x1":	120,
+				"y1":	300
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	400,
+				"x1":	120,
+				"y1":	340
+			}
+		}
+	}
+}
