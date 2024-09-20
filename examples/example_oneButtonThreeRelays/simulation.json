@@ -68,8 +68,8 @@
 				"name":	"",
 				"classname":	"CText",
 				"rotation":	0,
-				"x":	329,
-				"y":	72,
+				"x":	349,
+				"y":	52,
 				"text":	"Using one button to control 3 relays demo.\nFirst relay is using Click.\nSecond relay uses Double Click.\nThird uses Hold."
 			},
 			"object":	{
