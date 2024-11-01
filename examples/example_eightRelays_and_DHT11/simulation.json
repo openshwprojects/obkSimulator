@@ -129,12 +129,18 @@
 				"y":	520
 			},
 			"object":	{
-				"name":	"",
-				"classname":	"CText",
+				"name":	"GND",
+				"classname":	"CShape",
 				"rotation":	0,
-				"x":	4,
-				"y":	0,
-				"text":	"TEXT"
+				"x":	560,
+				"y":	520
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	380,
+				"y":	140
 			}
 		},
 		"wires":	{
@@ -281,6 +287,24 @@
 				"y0":	440,
 				"x1":	680,
 				"y1":	500
+			},
+			"wire":	{
+				"x0":	560,
+				"y0":	500,
+				"x1":	560,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	340,
+				"x1":	380,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	340,
+				"x1":	380,
+				"y1":	140
 			}
 		}
 	}
