@@ -45,6 +45,20 @@
 				"x":	961,
 				"y":	84,
 				"text":	"Debug: current pin states:\n$pinstates"
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	100,
+				"y":	480
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	400,
+				"y":	560
 			}
 		},
 		"wires":	{
@@ -95,6 +109,30 @@
 				"y0":	460,
 				"x1":	220,
 				"y1":	460
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	500,
+				"x1":	100,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	100,
+				"y0":	500,
+				"x1":	100,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	500,
+				"x1":	400,
+				"y1":	500
+			},
+			"wire":	{
+				"x0":	400,
+				"y0":	500,
+				"x1":	400,
+				"y1":	540
 			}
 		}
 	}

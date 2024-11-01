@@ -29,6 +29,20 @@
 				"x":	528,
 				"y":	71,
 				"text":	"Channel used for delay: 10 \nCurrent channel 10 value: $CH10\n\nSimulator will shut down when it reaches 0!\n\nPress button to add +10 seconds!"
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	120,
+				"y":	320
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	420,
+				"y":	400
 			}
 		},
 		"wires":	{
@@ -49,6 +63,30 @@
 				"y0":	400,
 				"x1":	560,
 				"y1":	240
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	340,
+				"x1":	120,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	120,
+				"y0":	340,
+				"x1":	120,
+				"y1":	320
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	340,
+				"x1":	420,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	340,
+				"x1":	420,
+				"y1":	380
 			}
 		}
 	}
