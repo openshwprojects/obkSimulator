@@ -40,8 +40,8 @@
 				"name":	"",
 				"classname":	"CText",
 				"rotation":	0,
-				"x":	433,
-				"y":	121,
+				"x":	313,
+				"y":	61,
 				"text":	"NOTE: For best results, please use\nInstant Touch Reaction\" (aka SetOption13)\nin General/Flags. Otherwise the LED will \ntoggle after you release the button,\nand not immediatelly."
 			},
 			"object":	{
@@ -49,24 +49,38 @@
 				"classname":	"CText",
 				"rotation":	0,
 				"x":	218,
-				"y":	67,
+				"y":	27,
 				"text":	"The LED will automatically turn off after few seconds.12"
 			},
 			"object":	{
 				"name":	"",
 				"classname":	"CText",
 				"rotation":	0,
-				"x":	826,
-				"y":	104,
+				"x":	606,
+				"y":	204,
 				"text":	"Here is script used for this example:"
 			},
 			"object":	{
 				"name":	"",
 				"classname":	"CText",
 				"rotation":	0,
-				"x":	834,
-				"y":	137,
+				"x":	634,
+				"y":	257,
 				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	420,
+				"y":	400
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	180,
+				"y":	160
 			}
 		},
 		"wires":	{
@@ -105,6 +119,30 @@
 				"y0":	400,
 				"x1":	120,
 				"y1":	340
+			},
+			"wire":	{
+				"x0":	380,
+				"y0":	340,
+				"x1":	420,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	340,
+				"x1":	420,
+				"y1":	380
+			},
+			"wire":	{
+				"x0":	220,
+				"y0":	340,
+				"x1":	180,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	180,
+				"y0":	340,
+				"x1":	180,
+				"y1":	160
 			}
 		}
 	}

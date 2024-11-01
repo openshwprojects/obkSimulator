@@ -55,7 +55,7 @@
 				"classname":	"CText",
 				"rotation":	0,
 				"x":	382,
-				"y":	56,
+				"y":	-24,
 				"text":	"PWMToggler provides an abstraction layer over channels.\nWith PWMToggler, you can send separate On/Off messages\nand Value messages to a channel, and channel remember\nit's previous value after toggling.\nPWMToggler can work along with RGB LED driver.\nThis was added for RGB LED + Laser + Motor device,\nas requested by user."
 			},
 			"object":	{
@@ -73,6 +73,20 @@
 				"x":	770,
 				"y":	215,
 				"text":	"$autoexec.bat"
+			},
+			"object":	{
+				"name":	"GND",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	660,
+				"y":	500
+			},
+			"object":	{
+				"name":	"VDD",
+				"classname":	"CShape",
+				"rotation":	0,
+				"x":	420,
+				"y":	140
 			}
 		},
 		"wires":	{
@@ -141,6 +155,30 @@
 				"y0":	420,
 				"x1":	220,
 				"y1":	480
+			},
+			"wire":	{
+				"x0":	620,
+				"y0":	340,
+				"x1":	660,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	660,
+				"y0":	340,
+				"x1":	660,
+				"y1":	480
+			},
+			"wire":	{
+				"x0":	460,
+				"y0":	340,
+				"x1":	420,
+				"y1":	340
+			},
+			"wire":	{
+				"x0":	420,
+				"y0":	340,
+				"x1":	420,
+				"y1":	140
 			}
 		}
 	}
